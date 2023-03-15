@@ -26,8 +26,8 @@ mirror:
     - git remote add mirror git@github.com:KirillShantin/test-referencing.git
     # Discard changes before checking out branch
     - git reset HEAD --hard
-    #// Tring to Push "master" branch to "white-master"
-    - git checkout master && git push mirror master white-master
+    #// Tring to Push "master" branch to "master"
+    - git checkout master && git push mirror master master
     # Uncomment below to push other branch(es), change "branchX" according to your need
     #- git checkout branchX && git push mirror branchX
 
